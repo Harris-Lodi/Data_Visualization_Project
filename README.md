@@ -3,3 +3,6 @@
  
  Project is pull from the book:
  Python Crash Course - A Hands-On, Project Based Introduction to programming by Eric Matthes
+
+ Requirments:
+ pip install matplotlib
