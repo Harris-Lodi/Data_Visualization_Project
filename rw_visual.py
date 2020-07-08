@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from random_walk import Randomwalk
 
 # this script will visually plot the randomwalks
-# generated from the random_walk.py script, page 324
+# generated from the random_walk.py script
 
 # keep making new walks, as long as the program is active
 while True:

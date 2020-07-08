@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt # page 315
+import matplotlib.pyplot as plt 
 
 # data set of 1000 dots too look like a line
 x_values = range(1, 1001)

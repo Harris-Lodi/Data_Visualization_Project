@@ -6,3 +6,4 @@
 
  Requirments:
  pip install matplotlib
+ pip install plotly
