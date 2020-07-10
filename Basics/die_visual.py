@@ -1,12 +1,12 @@
 from plotly.graph_objs import Bar, Layout
-from plotly import offline 
+from plotly import offline
 from die import Die
 
 # create one 6-sided die and one 10 sides die this time
 die_1 = Die()
 die_2 = Die(10)
 
-# make some rolls, and store results in a list, page 334
+# make some rolls, and store results in a list
 results = []
 for roll_num in range(50000): # 50,000 rolls
 
@@ -21,7 +21,7 @@ for value in range(2, max_results+1): # start from 2 since that is the smallest 
     # count unique value from results
     # and store the number of unique occurences in frequency
     # and them append that to frequencies
-    frequency = results.count(value) 
+    frequency = results.count(value)
     frequencies.append(frequency)
 
 # visualize the results
