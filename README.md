@@ -6,6 +6,7 @@
 
  Sources for data used:
  weather data from: https://codinginfinite.com/data-visualizing-csv-format-chart-using-python-matplotlib/
+ Earthquake_Data from: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
  Requirments:
  pip install matplotlib
