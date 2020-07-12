@@ -2,7 +2,7 @@ import csv
 import matplotlib.pyplot as plt 
 from datetime import datetime
 
-# save data to filename variable, page 347
+# save data to filename variable
 # source: https://codinginfinite.com/data-visualizing-csv-format-chart-using-python-matplotlib/
 filename = 'data/sitka_weather_2018_full.csv'
 
