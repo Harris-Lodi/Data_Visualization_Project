@@ -3,7 +3,7 @@ from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline 
 from plotly import colors 
 
-# explore geojson data from file, page 360
+# explore geojson data from file
 # source: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 filename = 'data/1.0_month.geojson'
 with open(filename, encoding='utf8') as f:
