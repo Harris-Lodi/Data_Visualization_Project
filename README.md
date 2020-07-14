@@ -12,6 +12,9 @@
  Github APIs info: https://developer.github.com/v3/ <br />
  plotly figure reference: https://plot.ly/python/reference/ <br />
  plotly user guide: https://plot.ly/python/user-guide/ <br />
+ Hacker news: https://news.ycombinator.com/ <br />
+ Hacker news API for top stories: https://hacker-news.firebaseio.com/v0/topstories.json <br />
+ Hacker news API GitHub: https://github.com/HackerNews/API <br />
 
  Requirments: <br />
  pip install matplotlib <br />

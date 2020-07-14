@@ -2,7 +2,7 @@ import requests
 from plotly.graph_objs import Bar 
 from plotly import offline 
 
-# make an API call and store the response, page 372
+# make an API call and store the response
 # url api source: located in README.md file
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
 # headers ask api to use specific version
@@ -75,6 +75,7 @@ fig = {'data': data, 'layout': my_layout}
 offline.plot(fig, filename = 'python_repos.html')
 
 # region examine first entry only
+
 # examine the first repository (comment)
 # repo_dict_alpha = repo_dicts[0]
 # print the key attributes we can access about the repo (comment)
@@ -82,6 +83,7 @@ offline.plot(fig, filename = 'python_repos.html')
 # print keys (comment)
 # for key in sorted(repo_dict_alpha.keys()):
 #     print(key)
+
 # endregion
 
 # region pull some info from the top repos
