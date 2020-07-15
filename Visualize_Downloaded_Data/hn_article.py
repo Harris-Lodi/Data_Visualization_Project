@@ -3,7 +3,7 @@ import requests
 from operator import itemgetter 
 
 # make an API call to see if hacker news site status code is 200
-# top stories API, page 380
+# top stories API
 url = "https://hacker-news.firebaseio.com/v0/topstories.json"
 r = requests.get(url)
 print(f"Status code: {r.status_code}")
